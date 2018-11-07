@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFButtonGestureRecognizersIssue.Android", "XFButtonGestureRecognizersIssue\XFButtonGestureRecognizersIssue.Android\XFButtonGestureRecognizersIssue.Android.csproj", "{4C40AEF5-1747-4E83-BA2D-70B86FCB7F98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFButtonGestureRecognizersIssue.Android", "src\App.Android\XFButtonGestureRecognizersIssue.Android.csproj", "{4C40AEF5-1747-4E83-BA2D-70B86FCB7F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFButtonGestureRecognizersIssue", "XFButtonGestureRecognizersIssue\XFButtonGestureRecognizersIssue\XFButtonGestureRecognizersIssue.csproj", "{EE45F237-FD33-429F-A1B3-87FBCE03D6F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFButtonGestureRecognizersIssue", "src\App\XFButtonGestureRecognizersIssue.csproj", "{EE45F237-FD33-429F-A1B3-87FBCE03D6F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

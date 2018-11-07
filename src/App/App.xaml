@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="XFButtonGestureRecognizersIssue.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.MainPage>
+        <ContentPage x:Name="Page" Title="Default title">
+            <StackLayout CompressedLayout.IsHeadless="True">
+
+                <Button Text="Test 1">
+                    <View.GestureRecognizers>
+                        <ClickGestureRecognizer Clicked="TapGestureRecognizer_Tapped" />
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                    </View.GestureRecognizers>
+                </Button>
+
+                <Label Text="Test 2">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                    </View.GestureRecognizers>
+                </Label>
+
+            </StackLayout>
+        </ContentPage>
+    </Application.MainPage>
+</Application>
